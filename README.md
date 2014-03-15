@@ -1,5 +1,8 @@
 # AFOAuth2Client
 
+This fork provides compatibility for Mac OS 10.7+. For this purpose kSecAttrAccessible attribute setter was removed.
+Also in this fork strange assert in -setRefreshToken:expiration: was removed.
+
 AFOAuth2Client is an extension for [AFNetworking](http://github.com/AFNetworking/AFNetworking/) that greatly simplifies the process of authenticating against an [OAuth 2](http://oauth.net/2/) provider.
 
 ## Example Usage
